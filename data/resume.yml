@@ -2,8 +2,8 @@ info:
   name: Chenyun Yang
   phone: (+86) 186-1016-5182
   email: yangchenyun@gmail.com
-  homepage: http://yangchenyun.com/
-  github: http://github.com/yangchenyun
+  homepage: yangchenyun.com/
+  github: github.com/yangchenyun
   address:
     street:
     city:
@@ -11,80 +11,93 @@ info:
     postal_code:
     country:
 
-education:
-    - name: Zhejiang University
-      city: Hangzhou
-      country: China
-      dates:
-        start: 2006-09-01
-        end: 2011-06-30
-      content: B.Arts in Economics 3.81 / 4
+educations:
+  - name: Zhejiang University
+    city: Hangzhou
+    country: China
+    date:
+      start: 2006-09-01
+      end: 2011-06-30
+    content: B.Arts in Economics 3.81 / 4
 
-    - name: Keio University
-      city: Tokyo
-      country: Japan
-      dates:
-        start: 2009-09-01
-        end: 2010-08-31
-      content: Scholarship from JASSO
-      hide: true
+  - name: Keio University
+    city: Tokyo
+    country: Japan
+    date:
+      start: 2009-09-01
+      end: 2010-08-31
+    content: "**Only exchange student** accomplished a two-year research program. Scholarship from JASSO, selected out of 3000 candidates."
+    hide: true
 
 jobs:
   - title: Co-founder & CTO
     city: Shanghai
     country: China
-    company: Zenhacks
-    link: http://zenhacks.org
-    department:
-    dates:
+    company:
+      name: Zenhacks Co.,Ltd.
+      link: http://zenhacks.org
+      intro: Startup
+    date:
       start: 2012-06-01
-      end: current
+      end: present
     accomplishments:
-      - item: Founded the online flower shop [Huali](http://hua.li). Built the working system **within 2 weeks**. Keep a **137% monthly growth rate** of revenue.
-      - item: Developed the whole system through TDD and strong OOP patterns. Implemented a loosely-coupled architecture to enable various components connected through a messaging system backed by Redis. LOC is **14K**. Code to Test Ratio **1:1.2**. -Sass, Rails, Rspec, PostgreSQL, Redis-
-      - item: Automated the deployment process on multiple remote servers for Rails/PHP/nodeJS applications. Facilitated new team members to deploy code at their first day. [src](http://github.com/zenhacks/capistrano-zen)
-      - item: Recruiting, Project Management?
-      - item: SA Roles.
+      - "**Founded** one of Chinese biggest online flower shop [Huali](http://hua.li). Built the working system **within 2 weeks**. Keep an average **317% seasonal growth rate**."
+      - "Developed the whole system through **TDD** procedure. Implemented a loosely-coupled architecture to enable complex components communicated through a messaging bus. **LOC: 14K, Code to Test Ratio 1:1.2**. *Sass, Ruby, Rails, Rspec, PostgreSQL, Redis*"
+      - "Authored [open sourced](http://github.com/zenhacks/capistrano-zen) scripts for deploying Rails/PHP/nodeJS apps onto multiple servers. Enabled new developers to deploy code from day one. *Linux, Ruby, Bash*"
+      - "[hide] some information about recruiting, project management?"
+      - "[hide] facilitating roles, such as Bug tracker, gitlab maintainance"
 
   - title: Early Employee & Frontend Lead
     city: Shanghai
     country: China
-    company: Rajax Technology Co., Ltd.
-    link: http://ele.me
-    department:
-    dates:
+    company:
+      name: Rajax Co.,Ltd.
+      link: http://ele.me
+      intro: Biggest food ordering platform
+    date:
       start: 2011-06-01
       end: 2012-01-31
     accomplishments:
-      - Redesigned and implemented the frontend UI, increase the order conversion rate by 13% and reduce 12% bounce rate. -javaScript, jQuery, Less-
-      - Optimized the frontend assets serving. Cut the bandwidth cost by 47% by implementing a Etags-based browser caching strategy and increate page load speed by 23% by inlining small images into HTML. -PHP-
+      - "Redesigned and implemented the frontend UI, increased the conversion rate by 13% and reduced 12% bounce rate. *javaScript, jQuery, Less*"
+      - "Optimized the frontend assets serving strategy. Cut the bandwidth cost by 27% by implementing a Etags-based browser caching and cut page load time by 31% by implementing multiple assets preprocessing strategies. *PHP, javaScript*"
 
 projects:
   - title: Technical Writing
     link:
-    dates:
+    date:
       start: 2011-03-01
-      end: current
+      end: present
     accomplishments:
-      - Author at [Sitepoint.com].(http://www.sitepoint.com/author/yangchenyun/)
-      - Write blogs about self-learning and personal management.
+      - "Author at [Sitepoint.com](http://www.sitepoint.com/author/yangchenyun/), writing articles in theme of Ruby/Rails."
+      - "Run a [personal blog](http://www.yangchenyun.com) since 2010, writing articles about self-learning and personal management."
 
-  - title: Cofounder of TEDxFiveStarSquare
+  - title: Cofounder, TEDxFSS
+    intro: Biggest China TEDx Event in 2010
     link: http://ted.yangchenyun.com/
-    dates:
+    date:
       start: 2011-03-01
-      end: 2011-05-30
+      end: present
     accomplishments:
-      - Design the stage, graphics and website of the very early TEDx event in China.
+      - Owned the conference design process including stage, logo, poster and website design.
+
+  - title: Hackthon Winning Project - Doorman
+    link: https://github.com/conan007ai/doorman
+    date:
+      start: 2013-04-01
+      end:
+    accomplishments:
+      - "A RESTful service about entry/exit events of intranet devices. Designed architecture of the project; implemented the API to push data to pushing server. *nodeJS, expressJS*"
 
 skills:
+  - category: Design
+    content: Photoshop, InDesign, HTML5, CSS3
   - category: languages
-    content: Proficiency in Ruby, javaScript / Experience with PHP, Python, C, Java, Scheme, Processing, Rust
+    content: Ruby, JavaScript, PHP, Python, Scheme, C, Java, Processing, Rust
   - category: frameworks
     content: Rails, nodeJS, Sinatra, Wordpress, jQuery, AngularJS
   - category: backend
     content: PostgreSQL, MySQL, MongoDB, Redis
 
 hobbies:
-  - Mountain Climbing. Peaked Mt.Haba(5396m), 2012.
-  - Longboarding.
+  - Mountain Climbing. Peaked Mt.Haba(5396m) at 2012
+  - Longboarding

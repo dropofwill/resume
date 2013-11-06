@@ -1,9 +1,10 @@
 //= require "normalize"
+$defaultFont: 400 16px/24px "Gentium Book Basic", serif
 body
   width: 650px
   margin: 2em auto 0
   background: #fdfdfd url("../images/grey.png")
-  font: 400 16px/24px "Gentium Book Basic", serif
+  font: $defaultFont
   line-height: 1.3em
 
 a
@@ -24,6 +25,11 @@ h2
   text-transform: uppercase
   font-size: 1.3em
   margin-bottom: .5em
+
+span.intro
+  font: $defaultFont
+  font-style: italic
+  margin-left: 5ex
 
 p.location
   float: right
