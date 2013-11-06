@@ -8,7 +8,7 @@ header
 
 h2 Work Experience
 ul.section
-  - jobs.each do |job|
+  - filter_hide(jobs).each do |job|
     li
       div
         p.location =[job.city, job.country].join(', ')
@@ -22,7 +22,7 @@ ul.section
 
 h2 Education
 ul.section
-  - educations.each do |edu|
+  - filter_hide(educations).each do |edu|
     li
       div
         p.location =[edu.city, edu.country].join(', ')
@@ -33,7 +33,7 @@ ul.section
 
 h2 Project Experience
 ul.section
-  - projects.each do |prj|
+  - filter_hide(projects).each do |prj|
     li
       div
         p.date =period(prj.date.start, prj.date.end)
@@ -44,10 +44,10 @@ ul.section
 
 h2 Core Technical Skills
 ul.section
-  - skills.each do |skill|
+  - filter_hide(skills).each do |skill|
     li ="#{skill.category.capitalize}: #{skill.content}"
 
 h2 Hobbies
 ul.section
-  - hobbies.each do |hobby|
+  - filter_hide(hobbies).each do |hobby|
     li =hobby

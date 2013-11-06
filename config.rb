@@ -51,7 +51,14 @@ helpers do
   end
 
   def filter_hide(ary)
-    ary.reject { |str| str["hide"] }
+    ary.reject do |elem|
+      case elem
+      when String
+        elem.slice("hide")
+      else
+        elem["hide"]
+      end
+    end
   end
 
   def period(s, e = nil)
