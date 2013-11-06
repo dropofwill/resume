@@ -3,10 +3,25 @@ title: Curriculum Vitae of Chenyun Yang
 ---
 header
   h1 = info.name
-  p = [info.phone, mail_to(info.email), link_to('github', info.github)].join(' • ')
-  hr
+  p = [info.phone, mail_to(info.email), link_to('github.com/yangchenyun', info.github)].join(' • ')
+
+h2 Education
+hr
+ul.section
+  - filter_hide(educations).each do |edu|
+    li
+      div
+        p.location =[edu.city, edu.country].join(', ')
+        h3
+          =edu.name
+          span.intro =edu.intro
+      div
+        p.date =period(edu.date.start, edu.date.end)
+        -edu.contents.each do |content|
+          p =markdown(content)
 
 h2 Work Experience
+hr
 ul.section
   - filter_hide(jobs).each do |job|
     li
@@ -23,18 +38,8 @@ ul.section
         - filter_hide(job.accomplishments).each do |acc|
           li = markdown(acc)
 
-h2 Education
-ul.section
-  - filter_hide(educations).each do |edu|
-    li
-      div
-        p.location =[edu.city, edu.country].join(', ')
-        h3 =edu.name
-      div
-        p.date =period(edu.date.start, edu.date.end)
-        p =edu.content
-
 h2 Project Experience
+hr
 ul.section
   - filter_hide(projects).each do |prj|
     li
@@ -48,11 +53,13 @@ ul.section
           li = markdown(acc)
 
 h2 Core Technical Skills
+hr
 ul.section
   - filter_hide(skills).each do |skill|
     li ="#{skill.category.capitalize}: #{skill.content}"
 
 h2 Hobbies
+hr
 ul.section
   - filter_hide(hobbies).each do |hobby|
     li =hobby
