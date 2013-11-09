@@ -5,7 +5,7 @@ body
   margin: 2em auto 0
   background: #fdfdfd url("../images/grey.png")
   font: $defaultFont
-  line-height: 1.3em
+  line-height: 1.2em
 
 a
   color: inherit
@@ -13,11 +13,10 @@ a
     color: inherit
 
 hr
-  margin-top: 0
+  margin: 0
 
 header
   text-align: center
-  margin-bottom: 20px
 
 h1
   margin: .3em 0
@@ -28,25 +27,30 @@ h2, h3, h4, p
 h2
   text-transform: uppercase
   font-size: 1.3em
-  margin-bottom: .5em
+  margin-top: .75em
+  margin-bottom: .15em
 
-span.intro
-  font: $defaultFont
-  font-style: italic
-  margin-left: 5ex
+.sections
+  margin-top: .5em
+  .record
+    margin-bottom: .5em
+
+ul.items
+  margin: .3em 0
+  li
+    margin-bottom: .1em
 
 p.location
   float: right
 
 p.date
   float: right
-  font-style: italic
+  // font-style: italic
 
 ul
   padding-left: 3ex
 
-ul.section
-  margin-top: 0
-
-ul.section h3
-  margin-top: .5em
+h3 span.intro
+  margin-right: 50px
+  float: right
+  width: 384px

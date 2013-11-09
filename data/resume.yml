@@ -12,8 +12,16 @@ info:
     country:
 
 educations:
+  - name: Stanford University (Online Courses)
+    city: Stanford
+    country: CA
+    date:
+      start: 2013-01-01
+      end: 2013-03-30
+    contents:
+      - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) course CS145 (Introduction to Database) with **full score**"
+
   - name: Zhejiang University
-    intro: "Rank #3 in China"
     city: Hangzhou
     country: China
     date:
@@ -21,7 +29,7 @@ educations:
       end: 2011-06-30
     contents:
       - "B.A. in Economics - GPA: 3.81/4"
-      - "**One year overseas** study at Keio University in Tokyo, Japan"
+      - "[hide] **One year overseas** study at Keio University in Tokyo, Japan"
 
   - name: Keio University
     city: Tokyo
@@ -46,13 +54,13 @@ jobs:
       end: present
     suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
-      - "**Founded** one of China's biggest online flower shop [Huali](http://hua.li). Developed the IT system to automate operation, resulted in a seasonal **317% growth rate of business**"
-      - "Applied the **TDD** process in the team. Implemented a loosely-coupled architecture to enable complex components communicated through a messaging bus. **LOC: 14K, Code to Test Ratio 1:1.2**. *(Ruby, Rails, Saas, Rspec, PostgreSQL, Redis)*"
-      - "Authored [the scripts](http://github.com/zenhacks/capistrano-zen) for deploying Rails/PHP/nodeJS apps onto multiple servers. Enabled new developers to deploy code from day one. *(Linux, Ruby, Bash)*"
+      - "**Cofounded** one of China's biggest online flower shop [Huali](http://hua.li), archieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**"
+      - "Laid the groud work of IT system, including e-commerce, resource management and message systems; design a modulized architecture and apply TDD to control complexity while meet expanding business requirement. **Code base: 14K, Code to Test Ratio 1:1.2**"
+      - "Setup the IT infrastructure for repo hosting, exception tracing and automated deployment. Enable new developers to deploy work from day one."
       - "[hide] some information about recruiting, project management?"
       - "[hide] facilitating roles, such as Bug tracker, gitlab maintainance"
 
-  - title: Early Employee & Frontend Lead
+  - title: Frontend Lead
     city: Shanghai
     country: China
     company:
@@ -63,48 +71,40 @@ jobs:
       start: 2011-06-01
       end: 2012-01-31
     accomplishments:
-      - "Redesigned and implemented the frontend UI, increased the conversion rate by 13% and reduced 12% bounce rate *(JavaScript, jQuery, Less)*"
-      - "Optimized the frontend assets serving strategy. Cut the bandwidth cost by 27% through Etags-based browser caching and reduce page load time by 31% with multiple assets preprocessing strategies *(PHP, JavaScript)*"
+      - "Rebuilt the frontend UI, increased 13% conversion rate and cut 12% bounce rate"
+      - "Optimized the frontend assets serving strategy. Cut the bandwidth cost by 27% through Etags-based browser caching and reduce page load time by 31% with multiple assets preprocessing strategies"
 
 projects:
-  - title: Technical Writing
-    link:
-    date:
-      start: 2011-03-01
-      end: present
-    accomplishments:
-      - "Author at [Sitepoint.com](http://www.sitepoint.com/author/yangchenyun/), writing articles in theme of Ruby/Rails"
-      - "Run a [personal blog](http://www.yangchenyun.com) since 2010, writing articles about self-learning and personal management"
-
-  - title: Cofounder, TEDxFSS
-    intro: Biggest China TEDx Event in 2010
-    link: http://ted.yangchenyun.com/
-    date:
-      start: 2011-03-01
-      end: present
-    accomplishments:
-      - Designed the stage, logo, poster and website for the non-profit conference
-    suggestion: non-profit, social awareness,
-
-  - title: Hackthon Winning Project - Doorman
+  - title: Doorman
     link: https://github.com/conan007ai/doorman
     date:
       start: 2013-04-01
       end:
     accomplishments:
-      - "A [RESTful service](https://github.com/conan007ai/doorman) about entry/exit events of intranet devices. Designed architecture of the project; implemented the API to push data to pushing server *(nodeJS, expressJS)*"
+      - "[RESTful API](https://github.com/conan007ai/doorman) for entry/exit events of devices within an intranet"
+      - "Led the development and completed the protoype **within 6 hours** to win a hackthon"
+
     suggestion: emphasis on fast-prototyping, hours, iterations
+
+  - title: TEDxFSS
+    link: http://ted.yangchenyun.com/
+    date:
+      start: 2011-03-01
+      end:
+    accomplishments:
+      - Cofounder of the biggest China TEDx Event in 2010
+      - Designed the stage, logo, poster and website for the non-profit conference
+    suggestion: non-profit, social awareness,
 
 skills:
   - category: languages
-    content: Ruby, JavaScript, PHP, Python, Scheme, C, Java, Processing, Rust
+    content: "Mastery of Ruby/JavaScript; experience with PHP/Python/Scheme/C/Java"
+  - category: Writing
+    content: "Being author at [Sitepoint.com](http://www.sitepoint.com/author/yangchenyun/) / Running [personal blog](http://www.yangchenyun.com) since 2010"
   - category: frameworks
-    content: Rails, nodeJS, Sinatra, Wordpress, jQuery, AngularJS
+    content: Rails, Node.js, Sinatra, Wordpress, jQuery
   - category: backend
     content: PostgreSQL, MySQL, MongoDB, Redis
-  - category: Design
-    content: Photoshop, InDesign, HTML5, CSS3
 
-hobbies:
+activities:
   - Mountain Climbing. Peaked Mt.Haba(5396m) in 2012
-  - Longboarding
