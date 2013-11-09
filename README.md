@@ -1,4 +1,5 @@
 # Resume
+![Analytics](https://ga-beacon.appspot.com/UA-27986795-3/resume/readme?pixel)
 My personal HTML and PDF resume builder with [Middleman](http://middlemanapp.com/).
 
 ## Run

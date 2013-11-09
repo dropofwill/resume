@@ -4,6 +4,7 @@ title: Curriculum Vitae of Chenyun Yang
 header
   h1 = info.name
   p = [info.phone, mail_to(info.email), link_to('github.com/yangchenyun', info.github)].join(' • ')
+  div#download =link_to('Download PDF', 'resume.pdf')
 
 h2 Education
 hr
@@ -50,7 +51,7 @@ div.sections
         - filter_hide(prj.accomplishments).each do |acc|
           li = markdown(acc)
 
-h2 Core Technical Skills
+h2 Core Skills
 hr
 ul.sections
   - filter_hide(skills).each do |skill|

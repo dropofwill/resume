@@ -12,15 +12,6 @@ info:
     country:
 
 educations:
-  - name: Stanford University (Online Courses)
-    city: Stanford
-    country: CA
-    date:
-      start: 2013-01-01
-      end: 2013-03-30
-    contents:
-      - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) course CS145 (Introduction to Database) with **full score**"
-
   - name: Zhejiang University
     city: Hangzhou
     country: China
@@ -29,7 +20,19 @@ educations:
       end: 2011-06-30
     contents:
       - "B.A. in Economics - GPA: 3.81/4"
+      - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) Stanford online course CS145 with **full score**"
       - "[hide] **One year overseas** study at Keio University in Tokyo, Japan"
+
+  - name: Stanford University (Online Courses)
+    city: Stanford
+    country: CA
+    date:
+      start: 2013-01-01
+      end: 2013-03-30
+    hide: true
+    contents:
+      - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) course CS145 (Introduction to Database) with **full score**"
+
 
   - name: Keio University
     city: Tokyo
@@ -54,9 +57,10 @@ jobs:
       end: present
     suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
-      - "**Cofounded** one of China's biggest online flower shop [Huali](http://hua.li), archieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**"
-      - "Laid the groud work of IT system, including e-commerce, resource management and message systems; design a modulized architecture and apply TDD to control complexity while meet expanding business requirement. **Code base: 14K, Code to Test Ratio 1:1.2**"
-      - "Setup the IT infrastructure for repo hosting, exception tracing and automated deployment. Enable new developers to deploy work from day one."
+      - "**Cofounded** [Huali](http://hua.li), one of China's biggest online flower shops. Achieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**"
+      - "Designed the backend with a message queueing architecture, enabling business requirements to be met by developing single responsibility components. Kept the code base maintainable and extensible while the complexity grows in the system"
+      - "Applied TDD in development, used rspec for unit and integration tests, used Selenium, Chrome Driver and Capybara for acceptance tests. **Code to Test Ratio 1:1.2**"
+      - "Wrote Capistrano extensions to setup infrastructure and automate deployment, enabling new developers to deploy work from day one"
       - "[hide] some information about recruiting, project management?"
       - "[hide] facilitating roles, such as Bug tracker, gitlab maintainance"
 
@@ -71,8 +75,9 @@ jobs:
       start: 2011-06-01
       end: 2012-01-31
     accomplishments:
-      - "Rebuilt the frontend UI, increased 13% conversion rate and cut 12% bounce rate"
-      - "Optimized the frontend assets serving strategy. Cut the bandwidth cost by 27% through Etags-based browser caching and reduce page load time by 31% with multiple assets preprocessing strategies"
+      - "Early Employee of the biggest online food ordering platform in China"
+      - "Rebuilt the UI which led to a 13% rise in conversion and 12% drop in bouncing rate"
+      - "Optimized the assets serving strategy. Cut the bandwidth by 27% through Etags-based browser caching and reduced page load time by 31% with multiple preprocessing strategies"
 
 projects:
   - title: Doorman
@@ -83,7 +88,6 @@ projects:
     accomplishments:
       - "[RESTful API](https://github.com/conan007ai/doorman) for entry/exit events of devices within an intranet"
       - "Led the development and completed the protoype **within 6 hours** to win a hackthon"
-
     suggestion: emphasis on fast-prototyping, hours, iterations
 
   - title: TEDxFSS
@@ -92,19 +96,21 @@ projects:
       start: 2011-03-01
       end:
     accomplishments:
-      - Cofounder of the biggest China TEDx Event in 2010
-      - Designed the stage, logo, poster and website for the non-profit conference
+      - "Cofounder of the **biggest China TEDx Event** in 2010"
+      - "Designed the stage, logo, poster and coded the website for the non-profit conference"
     suggestion: non-profit, social awareness,
 
 skills:
   - category: languages
-    content: "Mastery of Ruby/JavaScript; experience with PHP/Python/Scheme/C/Java"
-  - category: Writing
-    content: "Being author at [Sitepoint.com](http://www.sitepoint.com/author/yangchenyun/) / Running [personal blog](http://www.yangchenyun.com) since 2010"
+    content: "Ruby/JavaScript; basic PHP/Python/Scheme/C/Java"
   - category: frameworks
     content: Rails, Node.js, Sinatra, Wordpress, jQuery
-  - category: backend
+  - category: database
     content: PostgreSQL, MySQL, MongoDB, Redis
+  - category: Operating System
+    content: MacOS, Ubuntu, Debian
+  - category: Technical Writing
+    content: "Author at [Sitepoint.com](http://www.sitepoint.com/author/yangchenyun/) / Running [personal blog](http://www.yangchenyun.com) since 2010"
 
 activities:
-  - Mountain Climbing. Peaked Mt.Haba(5396m) in 2012
+  - Mountain Climbing. Peaked Mt.Haba(17,703ft) in 2012
