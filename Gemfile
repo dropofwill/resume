@@ -11,4 +11,6 @@ gem "middleman-livereload", "~> 3.1.0"
 
 gem "slim"
 
-gem "rubysl"
+platform :rbx do
+  gem "rubysl"
+end

@@ -19,7 +19,7 @@ educations:
       start: 2006-09-01
       end: 2011-06-30
     contents:
-      - "B.A. in Economics - GPA: 3.81/4"
+      - "B.A. in Economics - GPA: 3.69/4.0"
       - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) Stanford online course CS145 with **full score**"
       - "[hide] **One year overseas** study at Keio University in Tokyo, Japan"
 
@@ -49,11 +49,11 @@ jobs:
     city: Shanghai
     country: China
     company:
-      name: Zenhacks Co.,Ltd.
-      link: http://zenhacks.org
+      name: Huali, Ltd.
+      link: http://hua.li
       intro: Startup
     date:
-      start: 2012-06-01
+      start: 2012-08-01
       end: present
     suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
