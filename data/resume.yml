@@ -1,116 +1,139 @@
 info:
-  name: Chenyun Yang
-  phone: (+86) 186-1016-5182
-  email: yangchenyun@gmail.com
-  homepage: //yangchenyun.com
-  github: //github.com/yangchenyun
+  name: Will Paul
+  phone: (570) 867-2399
+  email: whp3652@rit.edu
+  homepage: will-paul.com
+  github: github.com/dropofwill
   address:
-    street:
-    city:
-    region:
-    postal_code:
-    country:
+    street: 37 Camptown Rd
+    city: Waverly
+    region: NY
+    postal_code: 14892
+    country: United States
 
 educations:
-  - name: Zhejiang University
-    city: Hangzhou
-    country: China
+  - name: Rochester Institute of Technology
+    city: Rochester, NY
+    country: United States
     date:
-      start: 2006-09-01
-      end: 2011-06-30
+      start: 2012-09-01
+      end: "present"
     contents:
-      - "B.A. in Economics - GPA: 3.69/4.0"
-      - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) Stanford online course CS145 with **full score**"
-      - "[hide] **One year overseas** study at Keio University in Tokyo, Japan"
-
-  - name: Stanford University (Online Courses)
-    city: Stanford
-    country: CA
-    date:
-      start: 2013-01-01
-      end: 2013-03-30
-    hide: true
-    contents:
-      - "[Accomplished](http://www.yangchenyun.com/assets/download/db-statement.pdf) course CS145 (Introduction to Database) with **full score**"
-
-
-  - name: Keio University
-    city: Tokyo
-    country: Japan
-    date:
-      start: 2009-09-01
-      end: 2010-08-31
-    hide: true
-    contents:
-      - "**Only exchange student** accomplished a two-year research program. Scholarship from JASSO, selected out of 3000 candidates"
+      - B.S. New Media Interactive Development *(expected 2016)*
+      - Minor in Language Science
+      - Minor in Free and Open Source Software
+      - Honors Program, 4.0 GPA
 
 jobs:
-  - title: Co-founder & CTO
-    city: Shanghai
-    country: China
+  - title: Research Assistant
+    city: Rochester, NY
+    country: United States
     company:
-      name: Huali, Ltd.
-      link: http://hua.li
-      intro: Startup
+      name: RIT CLASP Research Group
+      link: http://clasp.rit.edu/
     date:
-      start: 2012-08-01
+      start: 2014-09-01
       end: present
-    suggestion: emphasis on reasonable code base size and TDD
     accomplishments:
-      - "**Cofounded** [Huali](http://hua.li), one of China's biggest online flower shops. Achieved **more than $500,000 sales in the first year** and an average **seasonal growth of 317%**"
-      - "Designed the backend with a message queueing architecture, enabling business requirements to be met by developing single responsibility components. Kept the code base maintainable and extensible while the complexity grows in the system"
-      - "Applied TDD in development, used rspec for unit and integration tests, used Selenium, Chrome Driver and Capybara for acceptance tests. **Code to Test Ratio 1:1.2**"
-      - "Wrote Capistrano extensions to setup infrastructure and automate deployment, enabling new developers to deploy work from day one"
-      - "[hide] some information about recruiting, project management?"
-      - "[hide] facilitating roles, such as Bug tracker, gitlab maintainance"
+      - "Worked collaboratively on a multidisciplinary team with an affective computing focus"
+      - "Wrote a Python code base that automatically processed raw speech data and performed supervised classification."
+      - "Integrated this code base to work with other team members' data sets, which were from other modalities (behavioral and biophysical)."
+      - "Primary author on two papers, one submitted to INTERSPEECH 2015 (accepted) and the other FAAVSP 2015 (pending)."
 
-  - title: Frontend Lead
-    city: Shanghai
-    country: China
+  - title: Software Engineer Intern
+    city: Waltham, MA
+    country: United States
     company:
-      name: Rajax Co.,Ltd.
-      link: http://ele.me
-      intro: Biggest food ordering platform
+      name: Constant Contact
+      link: http://constantcontact.com/
+    date:
+      start: 2015-06-01
+      end: present
+    accomplishments:
+      - "Began working on an agile scrum team that builds a customer facing component of Constant Contact's email platform written in Ruby and CoffeeScript."
+
+  - title: Web Developer Intern
+    city: Alexandria, VA
+    country: United States
+    company:
+      name: Global Thinking
+      link: http://globalthinking.com/
+    date:
+      start: 2014-01-27
+      end: 2015-05-28
+    accomplishments:
+      - "Spent the first 8 months full time on site and spent the remainder working part time remotely."
+      - "Worked on both the front and back-end of several Rails and WordPress sites."
+      - "Conducted user research for two internal applications and used this to design a better user experience."
+      - "Was the lead developer as well as data visualization and user experience designer on a project that turned a research report into an interactive site."
+
+  - title: Information Technology Intern
+    city: Sayre, PA
+    country: United States
+    company:
+      name: Sayre Area School District
+      link: http://sayresd.org/
     date:
       start: 2011-06-01
-      end: 2012-01-31
+      end: 2014-01-31
     accomplishments:
-      - "Early Employee of the biggest online food ordering platform in China"
-      - "Rebuilt the UI which led to a 13% rise in conversion and 12% drop in bouncing rate"
-      - "Optimized the assets serving strategy. Cut the bandwidth by 27% through Etags-based browser caching and reduced page load time by 31% with multiple preprocessing strategies"
+      - "Automated the content creation process for parts of the school’s web site."
+      - "Managed the migration and performance tuning of the school’s virtual machines on new hardware."
 
 projects:
-  - title: Doorman
-    link: https://github.com/conan007ai/doorman
+  - title: Predicting Turn Types Competition
+    link: https://github.com/dropofwill/nlp-predicting-turn-types
     date:
-      start: 2013-04-01
+      start: 2014-11-01
       end:
     accomplishments:
-      - "[RESTful API](https://github.com/conan007ai/doorman) for entry/exit events of devices within an intranet"
-      - "Led the development and completed the protoype **within 6 hours** to win a hackthon"
-    suggestion: emphasis on fast-prototyping, hours, iterations
+      - "Led the development on a team 3 on a Natural Language Processing competition using interview transcript data to classify whether a given 'turn' in conversation was a question or an answer and whether the topic was of an emotional or material nature."
+      - "Achieved 89% averaged accuracy across tasks winning the competition (out of 6 teams)."
 
-  - title: TEDxFSS
-    link: http://ted.yangchenyun.com/
+  - title: Word Sense Disambiguation Interactive Visualization
+    link: https://github.com/dropofwill/wsd-sankey-visualization
     date:
-      start: 2011-03-01
+      start: 2014-10-01
+      end: 2014-11-01
+    accomplishments:
+      - "Implemented the Yarowsky supervised decision list algorithm for the word sense disambiguation task in Python."
+      - "Created an interactive Sankey diagram to help interpret the results of this algorithm on an arbitrary data set."
+
+  - title: Author Attribution
+    link: http://people.rit.edu/whp3652/author-attr.pdf
+    date:
+      start: 2014-12-01
       end:
     accomplishments:
-      - "Cofounder of the **biggest China TEDx Event** in 2010"
-      - "Designed the stage, logo, poster and coded the website for the non-profit conference"
-    suggestion: non-profit, social awareness,
+      - "Wrote a Python code base to automatically predict the author of a text based on its machine-readable characteristics."
+      - "Tested on the Ad-hoc Author Attribution Competition Corpus."
+      - "Presented results at an RIT language science project showcase."
+
+  - title: CGraph
+    link: http://cgraph.herokuapp.com/
+    date:
+      start: 2014-12-01
+      end: 2014-09-01
+    accomplishments:
+      - "Code is written linearly, but its execution is more like a network. CGraph is a tool that takes arbitrary C code, generates a call graph, and creates an interactive visualization of the results side-by-side with the code. Allowing for a more natural way to explore a code base."
+
+  - title: Rtasklib
+    link: https://github.com/dropofwill/rtasklib
+    date:
+      start: 2015-01-01
+      end: 2015-05-01
+    accomplishments:
+      - "A Ruby library that allows developers to interact with the TaskWarrior application."
+      - "Focused on quality end-user documentation and test driven development."
 
 skills:
-  - category: languages
-    content: "Ruby/JavaScript; basic PHP/Python/Scheme/C/Java"
+  - category: programming languages
+    content: Python, Lisp, OCaml, Ruby, JavaScript, CoffeeScript
+  - category: libraries
+    content: SciKit, D3.js, Backbone, jQuery
   - category: frameworks
-    content: Rails, Node.js, Sinatra, Wordpress, jQuery
-  - category: database
-    content: PostgreSQL, MySQL, MongoDB, Redis
-  - category: Operating System
-    content: MacOS, Ubuntu, Debian
-  - category: Technical Writing
-    content: "Author at [Sitepoint.com](http://www.sitepoint.com/author/yangchenyun/) / Running [personal blog](http://www.yangchenyun.com) since 2010"
-
-activities:
-  - Mountain Climbing. Peaked Mt.Haba(17,703ft) in 2012
+    content: Rails, Sinatra, Rack, Middleman, Express, WordPress
+  - category: databases
+    content: PostgreSQL, MySQL, MongoDB
+  - category: favorite tools
+    content: Git, Vim, Rake, Latex

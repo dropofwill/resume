@@ -63,7 +63,7 @@ helpers do
         elem = Date.parse(elem) unless Date === elem
         "<time datetime='#{elem}'>#{elem.strftime("%b %Y")}</time>"
       rescue ArgumentError # elem is 'present'
-        "<time datetime='#{DateTime.now}}'>Present</time>"
+        "<time datetime='#{DateTime.now}}'>#{elem}</time>"
       end
     end.join(' - ')
   end
