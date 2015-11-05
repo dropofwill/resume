@@ -100,8 +100,7 @@ projects:
     #   start: 2014-11-01
     #   end:
     accomplishments:
-      - "Led the development on a team 3 on a Natural Language Processing competition using interview transcript data to classify whether a given 'turn' in conversation was a question or an answer and whether the topic was of an emotional or material nature."
-      - "Achieved 89% averaged accuracy across tasks winning the competition (out of 6 teams)."
+      "Led the development on a team 3 on a Natural Language Processing competition using interview transcript data to classify whether a given 'turn' in conversation was a question or an answer and whether the topic was of an emotional or material nature. Achieved 89% averaged accuracy across tasks winning the competition (out of 6 teams)."
 
   - title: CGraph
     link: http://cgraph.herokuapp.com/
@@ -109,7 +108,7 @@ projects:
     #   start: 2014-12-01
     #   end: 2014-09-01
     accomplishments:
-      - "Code is written linearly, but its execution is more like a network. CGraph is a tool that takes arbitrary C code, generates a call graph, and creates an interactive visualization of the results side-by-side with the code. Allowing for a more natural way to explore a code base."
+      "Code is written linearly, but it executes in a graph. CGraph is a tool that takes arbitrary C code, generates a call graph, and creates an interactive visualization of the results side-by-side with the code. Allowing for a more natural way to explore a code base."
 
   - title: Rtasklib
     link: https://github.com/dropofwill/rtasklib
@@ -117,8 +116,7 @@ projects:
     #   start: 2015-01-01
     #   end: 2015-05-01
     accomplishments:
-      - "A Ruby library that allows developers to interact with the TaskWarrior application."
-      - "Focused on quality end-user documentation and test driven development."
+      "A Ruby library that allows developers to interact with the TaskWarrior application. Focused on quality end-user documentation and test driven development."
 
   # - title: Word Sense Disambiguation Interactive Visualization
   #   link: https://github.com/dropofwill/wsd-sankey-visualization
@@ -141,9 +139,9 @@ projects:
 
 skills:
   - Programming languages, Python, Lisp, OCaml, Ruby, JavaScript
-  - Libraries, SciKit, D3.js, Backbone, jQuery
+  - Libraries, React/Flux, SciKit, D3.js, Backbone, Socket.io
   - Frameworks, Rails, Sinatra, Rack, Middleman, Express
-  - Databases, PostgreSQL, MySQL, MongoDB
+  - Databases, MongoDB, PostgreSQL, MySQL
   - Favorite tools, Git, Vim, Rake, Latex
 
   # - category: programming languages

@@ -1,5 +1,7 @@
 //= require "normalize"
-$defaultFont: 400 16px/24px "DIN", serif
+//= require "fonts"
+
+$defaultFont: 400 16px/24px "Akzidenz Grotesk", sans-serif
 
 body
   width: 7.5in
@@ -35,8 +37,8 @@ h2
   margin-bottom: .15em
 
 .sections
-  overflow: auto
-  clear: both
+  width: 100%
+  overflow: hidden
 
   .record
     clear: both
@@ -50,9 +52,11 @@ h2
       float: right
 
 ul.items
-  margin: .3em 0
   li
     margin-bottom: .1em
+
+.items
+  margin: .3em 0
 
 p.location
   font-size: 14px
@@ -104,7 +108,7 @@ table th
   font-size: inherit
   margin: 0
   overflow: visible
-  padding: 0.5em 1em
+  padding: 0.3em
 
 table td:first-child,
 table th:first-child

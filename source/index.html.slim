@@ -47,9 +47,8 @@ div.sections
       div
         /p.date =period(prj.date.start, prj.date.end)
         h3 =prj.title
-      ul.items
-        - filter_hide(prj.accomplishments).each do |acc|
-          li = markdown(acc)
+      div.items
+        p.items =markdown(prj.accomplishments)
 
 div.sections
   h2 Core Skills
