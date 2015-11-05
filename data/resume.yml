@@ -9,7 +9,7 @@ info:
     city: Waverly
     region: NY
     postal_code: 14892
-    country: United States
+    country: US
 
 educations:
   - name: Rochester Institute of Technology
@@ -35,10 +35,22 @@ jobs:
       start: 2014-09-01
       end: present
     accomplishments:
-      - "Worked collaboratively on a multidisciplinary team with an affective computing focus"
-      - "Wrote a Python code base that automatically processed raw speech data and performed supervised classification."
+      - "Collaborated with a multidisciplinary team of professors and graduate students"
+      - "Wrote Python code to automatically detect stress in speech data."
       - "Integrated this code base to work with other team members' data sets, which were from other modalities (behavioral and biophysical)."
-      - "Primary author on two papers, one submitted to INTERSPEECH 2015 (accepted) and the other FAAVSP 2015 (pending)."
+      - "Primary author on two papers, accepted to INTERSPEECH 2015 and FAAVSP 2015."
+
+  - title: Teaching Assistant
+    city: Rochester, NY
+    country: United States
+    company:
+      name: RIT
+    date:
+      start: 2015-08-01
+      end: present
+    accomplishments:
+      - "Teaching assistant and grader for Interactive Design & Algorithmic Problem Solving II and III."
+      - "Created and taught a class on using Git for version control"
 
   - title: Software Engineer Intern
     city: Waltham, MA
@@ -48,9 +60,10 @@ jobs:
       link: http://constantcontact.com/
     date:
       start: 2015-06-01
-      end: present
+      end: 2015-08-15
     accomplishments:
-      - "Began working on an agile scrum team that builds a customer facing component of Constant Contact's email platform written in Ruby and CoffeeScript."
+      - "Worked in an agile scrum team to build a customer facing component of Constant Contact's email platform."
+      - "Recently accepted a full time position in the Software Engineering Development Program."
 
   - title: Web Developer Intern
     city: Alexandria, VA
@@ -63,9 +76,9 @@ jobs:
       end: 2015-05-28
     accomplishments:
       - "Spent the first 8 months full time on site and spent the remainder working part time remotely."
+      - "Led development on a data visualization project that turned a research report into an interactive site."
       - "Worked on both the front and back-end of several Rails and WordPress sites."
-      - "Conducted user research for two internal applications and used this to design a better user experience."
-      - "Was the lead developer as well as data visualization and user experience designer on a project that turned a research report into an interactive site."
+      - "Conducted user research for two internal applications and used this to design a better UX."
 
   - title: Information Technology Intern
     city: Sayre, PA
@@ -77,63 +90,69 @@ jobs:
       start: 2011-06-01
       end: 2014-01-31
     accomplishments:
-      - "Automated the content creation process for parts of the school’s web site."
-      - "Managed the migration and performance tuning of the school’s virtual machines on new hardware."
+      - "Automated the content creation process for the school’s web site."
+      - "Managed the migration and performance tuning of the school’s VMs on new hardware."
 
 projects:
   - title: Predicting Turn Types Competition
     link: https://github.com/dropofwill/nlp-predicting-turn-types
-    date:
-      start: 2014-11-01
-      end:
+    # date:
+    #   start: 2014-11-01
+    #   end:
     accomplishments:
       - "Led the development on a team 3 on a Natural Language Processing competition using interview transcript data to classify whether a given 'turn' in conversation was a question or an answer and whether the topic was of an emotional or material nature."
       - "Achieved 89% averaged accuracy across tasks winning the competition (out of 6 teams)."
 
-  - title: Word Sense Disambiguation Interactive Visualization
-    link: https://github.com/dropofwill/wsd-sankey-visualization
-    date:
-      start: 2014-10-01
-      end: 2014-11-01
-    accomplishments:
-      - "Implemented the Yarowsky supervised decision list algorithm for the word sense disambiguation task in Python."
-      - "Created an interactive Sankey diagram to help interpret the results of this algorithm on an arbitrary data set."
-
-  - title: Author Attribution
-    link: http://people.rit.edu/whp3652/author-attr.pdf
-    date:
-      start: 2014-12-01
-      end:
-    accomplishments:
-      - "Wrote a Python code base to automatically predict the author of a text based on its machine-readable characteristics."
-      - "Tested on the Ad-hoc Author Attribution Competition Corpus."
-      - "Presented results at an RIT language science project showcase."
-
   - title: CGraph
     link: http://cgraph.herokuapp.com/
-    date:
-      start: 2014-12-01
-      end: 2014-09-01
+    # date:
+    #   start: 2014-12-01
+    #   end: 2014-09-01
     accomplishments:
       - "Code is written linearly, but its execution is more like a network. CGraph is a tool that takes arbitrary C code, generates a call graph, and creates an interactive visualization of the results side-by-side with the code. Allowing for a more natural way to explore a code base."
 
   - title: Rtasklib
     link: https://github.com/dropofwill/rtasklib
-    date:
-      start: 2015-01-01
-      end: 2015-05-01
+    # date:
+    #   start: 2015-01-01
+    #   end: 2015-05-01
     accomplishments:
       - "A Ruby library that allows developers to interact with the TaskWarrior application."
       - "Focused on quality end-user documentation and test driven development."
 
+  # - title: Word Sense Disambiguation Interactive Visualization
+  #   link: https://github.com/dropofwill/wsd-sankey-visualization
+  #   date:
+  #     start: 2014-10-01
+  #     end: 2014-11-01
+  #   accomplishments:
+  #     - "Implemented the Yarowsky supervised decision list algorithm for the word sense disambiguation task in Python."
+  #     - "Created an interactive Sankey diagram to help interpret the results of this algorithm on an arbitrary data set."
+  #
+  # - title: Author Attribution
+  #   link: http://people.rit.edu/whp3652/author-attr.pdf
+  #   date:
+  #     start: 2014-12-01
+  #     end:
+  #   accomplishments:
+  #     - "Wrote a Python code base to automatically predict the author of a text based on its machine-readable characteristics."
+  #     - "Tested on the Ad-hoc Author Attribution Competition Corpus."
+  #     - "Presented results at an RIT language science project showcase."
+
 skills:
-  - category: programming languages
-    content: Python, Lisp, OCaml, Ruby, JavaScript, CoffeeScript
-  - category: libraries
-    content: SciKit, D3.js, Backbone, jQuery
-  - category: frameworks
-    content: Rails, Sinatra, Rack, Middleman, Express, WordPress
-  - category: databases
-    content: PostgreSQL, MySQL, MongoDB
-  - category: favorite tools
-    content: Git, Vim, Rake, Latex
+  - Programming languages, Python, Lisp, OCaml, Ruby, JavaScript
+  - Libraries, SciKit, D3.js, Backbone, jQuery
+  - Frameworks, Rails, Sinatra, Rack, Middleman, Express
+  - Databases, PostgreSQL, MySQL, MongoDB
+  - Favorite tools, Git, Vim, Rake, Latex
+
+  # - category: programming languages
+  #   content: Python, Lisp, OCaml, Ruby, JavaScript, CoffeeScript
+  # - category: libraries
+  #   content: SciKit, D3.js, Backbone, jQuery
+  # - category: frameworks
+  #   content: Rails, Sinatra, Rack, Middleman, Express, WordPress
+  # - category: databases
+  #   content: PostgreSQL, MySQL, MongoDB
+  # - category: favorite tools
+  #   content: Git, Vim, Rake, Latex

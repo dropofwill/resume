@@ -1,9 +1,9 @@
 //= require "normalize"
-$defaultFont: 400 16px/24px "Gentium Book Basic", serif
+$defaultFont: 400 16px/24px "DIN", serif
 
 body
   width: 7.5in
-  margin: 2em auto 0
+  margin: 2em auto 2em
   background: #fdfdfd
   font: $defaultFont
   line-height: 1.2em
@@ -14,13 +14,16 @@ a
     color: inherit
 
 hr
-  margin: 0
+  margin: 0.3em 0
 
 header
   text-align: center
 
 h1
   margin: .3em 0
+
+h2
+  clear: both
 
 h2, h3, h4, p
   margin: 0
@@ -32,9 +35,19 @@ h2
   margin-bottom: .15em
 
 .sections
-  margin-top: .5em
+  overflow: auto
+  clear: both
+
   .record
-    margin-bottom: .5em
+    clear: both
+
+    .content
+      width: 70%
+      float: left
+
+    .sidebar
+      width: 30%
+      float: right
 
 ul.items
   margin: .3em 0
@@ -42,11 +55,19 @@ ul.items
     margin-bottom: .1em
 
 p.location
-  float: right
+  font-size: 14px
+  text-align: right
+  // float: right
 
 p.date
-  float: right
-  // font-style: italic
+  font-size: 14px
+  text-align: right
+  // float: right
+  font-style: italic
+
+.career
+  text-align: right
+  // float: right
 
 ul
   padding-left: 3ex
@@ -62,6 +83,71 @@ h3 span.intro
   right: -120px
   top: -1em
 
+table
+  font-size: 14px
+  width: 100%
+  border-collapse: collapse
+  border-spacing: 0
+  empty-cells: show
+  border: 1px solid #cbcbcb
+
+table caption
+  color: #000
+  font: italic 85%/1 arial, sans-serif
+  padding: 0.7em 0
+  text-align: center
+
+table td,
+table th
+  border-left: 1px solid #cbcbcb
+  border-width: 0 0 0 1px
+  font-size: inherit
+  margin: 0
+  overflow: visible
+  padding: 0.5em 1em
+
+table td:first-child,
+table th:first-child
+  border-left-width: 0
+
+table thead
+  background-color: #e0e0e0
+  color: #000
+  text-align: left
+  vertical-align: bottom
+
+table td
+  background-color: transparent
+
+table tr:nth-child(2n-1) td
+  background-color: #f2f2f2
+
+table td
+  border-bottom: 1px solid #cbcbcb
+
+table tbody > tr:last-child > td
+  border-bottom-width: 0
+
+table td,
+table th
+  border-width: 0 0 1px 0
+  border-bottom: 1px solid #cbcbcb
+
+table tbody > tr:last-child > td
+  border-bottom-width: 0
+
 @media print
+  body
+    width: 7in
+    height: 11in
+    margin: 0.5in
+    background: #ffffff
+    font-size: 12px
+
+  p.location,
+  p.date
+    text-align:right
+    font-size: 12px
+
   #download
     display: none

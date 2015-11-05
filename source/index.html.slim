@@ -4,54 +4,60 @@ title: Curriculum Vitae of Will Paul
 header
   h1 = info.name
   p = [info.phone, mail_to(info.email), link_to(info.homepage, "http://#{info.homepage}")].join(' • ')
-  div#download =link_to('Download PDF', 'resume.pdf')
+  div#download =link_to('Download PDF', '/resume.pdf')
 
-h2 Education
-hr
 div.sections
+  h2 Education
+  hr
   - filter_hide(educations).each do |edu|
     div.record
-      div
-        p.location =[edu.city, edu.country].reject {|str| str.nil? }.join(', ')
+      div.content
         h3
           =edu.name
           span.intro =edu.intro
-      div
-        p.date =period(edu.date.start, edu.date.end)
         -filter_hide(edu.contents).each do |content|
           p =markdown(content)
 
-h2 Work Experience
-hr
+      div.sidebar
+        p.location =[edu.city, edu.country].reject {|str| str.nil? }.join(', ')
+        p.date =period(edu.date.start, edu.date.end)
+
 div.sections
+  h2 Work Experience
+  hr
   - filter_hide(jobs).each do |job|
     div.record
-      div
-        p.location =[job.city, job.country].join(', ')
+      div.content
         h3 =job.title
-      div
+        ul.items
+          - filter_hide(job.accomplishments).each do |acc|
+            li = markdown(acc)
+
+      div.sidebar
+        h4.career = link_to(job.company.name, job.company.link)
+        p.location =[job.city, job.country].join(', ')
         p.date =period(job.date.start, job.date.end)
-        h4
-          = link_to(job.company.name, job.company.link)
 
-      ul.items
-        - filter_hide(job.accomplishments).each do |acc|
-          li = markdown(acc)
 
-h2 Project Experience
-hr
 div.sections
+  h2 Project Experience
+  hr
   - filter_hide(projects).each do |prj|
     div.record
       div
-        p.date =period(prj.date.start, prj.date.end)
+        /p.date =period(prj.date.start, prj.date.end)
         h3 =prj.title
       ul.items
         - filter_hide(prj.accomplishments).each do |acc|
           li = markdown(acc)
 
-h2 Core Skills
-hr
-ul.sections
-  - filter_hide(skills).each do |skill|
-    li =markdown "#{skill.category.capitalize} : #{skill.content}"
+div.sections
+  h2 Core Skills
+  hr
+  table
+    tbody
+      - cols_to_rows(parse_to_arr(skills)).each do |row|
+        tr
+        - row.each do |col|
+          td #{col}
+
