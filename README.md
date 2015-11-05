@@ -9,7 +9,10 @@ My personal HTML and PDF resume builder with [Middleman](http://middlemanapp.com
     bundle exec middleman deploy
 
 ## Features:
- * Following [The Google Resume](http://www.thegoogleresume.com/index.html) structures and principles.
  * Separation between content and styles, all your resume information is an YAML file with markdown support.
  * Support Drafting on YAML.
  * Automatic Deployment to github pages at `http://yourusername.github.com/resume`
+
+## Sources
+
+Forked from [yangchenyun/resume](https://github.com/yangchenyun/resume) with updates pulled in from [reefab/ResumeMan](https://github.com/reefab/ResumeMan).
