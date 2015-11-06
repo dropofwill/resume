@@ -30,7 +30,7 @@ jobs:
     country: United States
     company:
       name: RIT CLASP Research Lab
-      link: http://clasp.rit.edu/
+      link: http://www.rit.edu/clasp
     date:
       start: 2014-09-01
       end: present
