@@ -35,8 +35,9 @@ jobs:
       start: 2014-09-01
       end: present
     accomplishments:
-      - "Collaborated with a multidisciplinary team of professors and graduate students"
-      - "Wrote Python code to automatically detect stress in speech data."
+      - "Collaborated with a multidisciplinary team of professors and graduate students on a multimodal, affective computing project."
+      - "Worked with human subjects to build a multimodal data set for stress detection."
+      - "Created a machine learning framework in Python to automatically detect stress in speech."
       - "Integrated this code base to work with other team members' data sets, which were from other modalities (behavioral and biophysical)."
       - "Primary author on two papers, presented at INTERSPEECH 2015 &amp; FAAVSP 2015 and published in the conference proceedings."
 
@@ -50,7 +51,7 @@ jobs:
       end: present
     accomplishments:
       - "Teaching assistant and grader for Interactive Design & Algorithmic Problem Solving II and III."
-      - "Created and taught a class on using Git for version control"
+      - "Created and taught a class on using Git for version control."
 
   - title: Software Engineer Intern
     city: Waltham, MA
@@ -75,7 +76,7 @@ jobs:
       start: 2014-01-27
       end: 2015-05-28
     accomplishments:
-      - "The first 8 months were full time on site and the remainder were working part time remotely."
+      - "The first 8 months were full time and the remainder were working part time remotely."
       - "Led development on a web project that turned a research report into an interactive data visualization."
       - "Worked on both the front and back-end of several Rails and WordPress sites."
       - "Conducted user research for two internal applications to design a better user experience."
@@ -100,7 +101,7 @@ projects:
     #   start: 2014-11-01
     #   end:
     accomplishments:
-      "Led the development on a team 3 on a Natural Language Processing competition using interview transcript data to classify whether a given 'turn' in conversation was a question or an answer and whether the topic was of an emotional or material nature. Achieved 89% averaged accuracy across tasks winning the competition (out of 6 teams)."
+      "Led the development on a team 3 for a Natural Language Processing competition using interview transcript data to classify whether a given 'turn' in the dialogue was a question or an answer and whether the topic was of an emotional or a material nature. Achieved 89% averaged accuracy across tasks winning the competition (out of 6 teams)."
 
   - title: CGraph
     link: cgraph.herokuapp.com/
@@ -108,7 +109,7 @@ projects:
     #   start: 2014-12-01
     #   end: 2014-09-01
     accomplishments:
-      "Code is written linearly, but it executes in a graph. CGraph is a tool that takes arbitrary C code, generates a call graph, and creates an interactive visualization of the results side-by-side with the code. Allowing for a more natural way to explore a code base."
+      "Even though code is written linearly, it executes in like a graph. Collaborated with another developer to create CGraph: a tool that takes arbitrary C code, generates a function call graph, and creates an interactive visualization of the results side-by-side with the code. Allowing for a more natural way to explore a code base."
 
   - title: Rtasklib
     link: will-paul.com/rtasklib
@@ -116,7 +117,7 @@ projects:
     #   start: 2015-01-01
     #   end: 2015-05-01
     accomplishments:
-      "A Ruby library that allows developers to interact with the TaskWarrior application. Focused on quality end-user documentation and test driven development."
+      "Created a Ruby library that allows developers to interact with the TaskWarrior application. Focused on quality end-user documentation and test driven development."
 
   # - title: Word Sense Disambiguation Interactive Visualization
   #   link: https://github.com/dropofwill/wsd-sankey-visualization
