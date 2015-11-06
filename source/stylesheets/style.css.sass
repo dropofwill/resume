@@ -44,11 +44,11 @@ h2
     clear: both
 
     .content
-      width: 70%
+      width: 73%
       float: left
 
     .sidebar
-      width: 30%
+      width: 27%
       float: right
 
 ul.items
@@ -66,8 +66,8 @@ p.location
 p.date
   font-size: 14px
   text-align: right
-  // float: right
-  font-style: italic
+  float: right
+  // font-style: italic
 
 .career
   text-align: right
@@ -114,7 +114,10 @@ table td:first-child,
 table th:first-child
   border-left-width: 0
 
-table thead
+table tr:nth-child(2) td
+  font-weight: bold
+
+table thead,
   background-color: #e0e0e0
   color: #000
   text-align: left
@@ -150,8 +153,10 @@ table tbody > tr:last-child > td
 
   p.location,
   p.date
+    color: black
     text-align:right
-    font-size: 12px
+    text-style: none
+    font-size: 11px
 
   #download
     display: none

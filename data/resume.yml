@@ -29,7 +29,7 @@ jobs:
     city: Rochester, NY
     country: United States
     company:
-      name: RIT CLASP Research Group
+      name: RIT CLASP Research Lab
       link: http://clasp.rit.edu/
     date:
       start: 2014-09-01
@@ -38,7 +38,7 @@ jobs:
       - "Collaborated with a multidisciplinary team of professors and graduate students"
       - "Wrote Python code to automatically detect stress in speech data."
       - "Integrated this code base to work with other team members' data sets, which were from other modalities (behavioral and biophysical)."
-      - "Primary author on two papers, accepted to INTERSPEECH 2015 and FAAVSP 2015."
+      - "Primary author on two papers, presented at INTERSPEECH 2015 &amp; FAAVSP 2015 and published in the conference proceedings."
 
   - title: Teaching Assistant
     city: Rochester, NY
@@ -62,7 +62,7 @@ jobs:
       start: 2015-06-01
       end: 2015-08-15
     accomplishments:
-      - "Worked in an agile scrum team to build a customer facing component of Constant Contact's email platform."
+      - "Worked on an agile scrum team to build a customer facing component of Constant Contact's email platform."
       - "Recently accepted a full time position in the Software Engineering Development Program."
 
   - title: Web Developer Intern
@@ -75,10 +75,10 @@ jobs:
       start: 2014-01-27
       end: 2015-05-28
     accomplishments:
-      - "Spent the first 8 months full time on site and spent the remainder working part time remotely."
-      - "Led development on a data visualization project that turned a research report into an interactive site."
+      - "The first 8 months were full time on site and the remainder were working part time remotely."
+      - "Led development on a web project that turned a research report into an interactive data visualization."
       - "Worked on both the front and back-end of several Rails and WordPress sites."
-      - "Conducted user research for two internal applications and used this to design a better UX."
+      - "Conducted user research for two internal applications to design a better user experience."
 
   - title: Information Technology Intern
     city: Sayre, PA
@@ -95,7 +95,7 @@ jobs:
 
 projects:
   - title: Predicting Turn Types Competition
-    link: https://github.com/dropofwill/nlp-predicting-turn-types
+    link: github.com/dropofwill/nlp-predicting-turn-types
     # date:
     #   start: 2014-11-01
     #   end:
@@ -103,7 +103,7 @@ projects:
       "Led the development on a team 3 on a Natural Language Processing competition using interview transcript data to classify whether a given 'turn' in conversation was a question or an answer and whether the topic was of an emotional or material nature. Achieved 89% averaged accuracy across tasks winning the competition (out of 6 teams)."
 
   - title: CGraph
-    link: http://cgraph.herokuapp.com/
+    link: cgraph.herokuapp.com/
     # date:
     #   start: 2014-12-01
     #   end: 2014-09-01
@@ -111,7 +111,7 @@ projects:
       "Code is written linearly, but it executes in a graph. CGraph is a tool that takes arbitrary C code, generates a call graph, and creates an interactive visualization of the results side-by-side with the code. Allowing for a more natural way to explore a code base."
 
   - title: Rtasklib
-    link: https://github.com/dropofwill/rtasklib
+    link: will-paul.com/rtasklib
     # date:
     #   start: 2015-01-01
     #   end: 2015-05-01
@@ -138,7 +138,7 @@ projects:
   #     - "Presented results at an RIT language science project showcase."
 
 skills:
-  - Programming languages, Python, Lisp, OCaml, Ruby, JavaScript
+  - Programming languages, Ruby, JavaScript, Python, OCaml, C#/F#
   - Libraries, React/Flux, SciKit, D3.js, Backbone, Socket.io
   - Frameworks, Rails, Sinatra, Rack, Middleman, Express
   - Databases, MongoDB, PostgreSQL, MySQL

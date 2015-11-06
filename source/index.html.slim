@@ -3,7 +3,10 @@ title: Curriculum Vitae of Will Paul
 ---
 header
   h1 = info.name
-  p = [info.phone, mail_to(info.email), link_to(info.homepage, "http://#{info.homepage}")].join(' • ')
+  p = [info.phone,
+    mail_to(info.email),
+    link_to(info.homepage, "http://#{info.homepage}"),
+    link_to(info.github, "http://#{info.github}")].join(' • ')
   div#download =link_to('Download PDF', 'resume.pdf')
 
 div.sections
@@ -45,7 +48,8 @@ div.sections
   - filter_hide(projects).each do |prj|
     div.record
       div
-        /p.date =period(prj.date.start, prj.date.end)
+        p.date
+          =link_to(prj.link, "http://#{prj.link}")
         h3 =prj.title
       div.items
         p.items =markdown(prj.accomplishments)
