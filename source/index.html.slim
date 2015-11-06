@@ -40,6 +40,11 @@ div.sections
         h4.career = link_to(job.company.name, job.company.link)
         p.location =[job.city, job.country].join(', ')
         p.date =period(job.date.start, job.date.end)
+        - if not job.examples.nil?
+          p.examples Examples:
+          - job.examples.each do |k, v|
+            p.date
+              =link_to(v, "http://#{v}")
 
 
 div.sections

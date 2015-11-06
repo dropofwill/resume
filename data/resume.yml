@@ -34,12 +34,17 @@ jobs:
     date:
       start: 2014-09-01
       end: present
+    examples:
+      CLASP: "rit.edu/clasp"
+      INTERSPEECH: "bit.ly/1MmVbtQ"
+      FAAVSP: "bit.ly/1kxTiQd"
     accomplishments:
       - "Collaborated with a multidisciplinary team of professors and graduate students on a multimodal, affective computing project."
       - "Worked with human subjects to build a multimodal data set for stress detection."
       - "Created a machine learning framework in Python to automatically detect stress in speech."
       - "Integrated this code base to work with other team members' data sets, which were from other modalities (behavioral and biophysical)."
       - "Primary author on two papers, presented at INTERSPEECH 2015 &amp; FAAVSP 2015 and published in the conference proceedings."
+      - "Designed and developed the website to promote our lab: *Computational Linguistics and Speech Processing at RIT*"
 
   - title: Teaching Assistant
     city: Rochester, NY
@@ -75,10 +80,13 @@ jobs:
     date:
       start: 2014-01-27
       end: 2015-05-28
+    examples:
+      DJ: "demandingjustice.org"
+      PT: "bit.ly/1kxTwqq"
     accomplishments:
       - "The first 8 months were full time and the remainder were working part time remotely."
       - "Led development on a web project that turned a research report into an interactive data visualization."
-      - "Worked on both the front and back-end of several Rails and WordPress sites."
+      - "Worked on both the front and backend of Rails and WordPress sites."
       - "Conducted user research for two internal applications to design a better user experience."
 
   - title: Information Technology Intern
