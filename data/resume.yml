@@ -81,7 +81,7 @@ jobs:
       start: 2014-01-27
       end: 2015-05-28
     examples:
-      DJ: "demandingjustice.org"
+      DJ: "demandingjustice.org/stats"
       PT: "bit.ly/1kxTwqq"
     accomplishments:
       - "The first 8 months were full time and the remainder were working part time remotely."
