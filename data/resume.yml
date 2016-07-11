@@ -5,10 +5,8 @@ info:
   homepage: will-paul.com
   github: github.com/dropofwill
   address:
-    street: 37 Camptown Rd
-    city: Waverly
-    region: NY
-    postal_code: 14892
+    city: Somerville
+    region: MA
     country: US
 
 educations:
@@ -17,14 +15,26 @@ educations:
     country: United States
     date:
       start: 2012-09-01
-      end: "present"
+      end: 2016-05-21
     contents:
-      - B.S. New Media Interactive Development *(expected 2016)*
+      - B.S. New Media Interactive Development
       - Minor in Free and Open Source Software &amp; Immersion in Language Science
       - Outstanding Undergraduate Scholar Award
-      - Honors Program, 3.98 GPA
+      - Honors Program, 3.99 GPA
 
 jobs:
+  - title: Software Engineer
+    city: Waltham, MA
+    country: United States
+    company:
+      name: Constant Contact
+      link: http://constantcontact.com/
+    date:
+      start: 2016-07-11
+      end: "present"
+    accomplishments:
+      - "Currently a part of the Software Engineering Development Program"
+
   - title: Research Assistant
     city: Rochester, NY
     country: United States
@@ -42,7 +52,6 @@ jobs:
       - "Collaborated with a multidisciplinary team of professors and graduate students on a multimodal, affective computing project."
       - "Worked with human subjects to build a multimodal data set for stress detection."
       - "Created a machine learning framework in Python to automatically detect stress in speech."
-      - "Integrated this code base to work with other team members' data sets, which were from other modalities (behavioral and biophysical)."
       - "Primary author on two papers, presented at INTERSPEECH 2015 &amp; FAAVSP 2015 and published in the conference proceedings."
       - "Designed and developed the website to promote our lab: *Computational Linguistics and Speech Processing at RIT*"
 
@@ -69,7 +78,6 @@ jobs:
       end: 2015-08-15
     accomplishments:
       - "Worked on an agile scrum team to build a customer facing component of Constant Contact's email platform."
-      - "Recently accepted a full time position in the Software Engineering Development Program."
 
   - title: Web Developer Intern
     city: Alexandria, VA
@@ -89,18 +97,18 @@ jobs:
       - "Worked on both the front and backend of Rails and WordPress sites."
       - "Conducted user research for two internal applications to design a better user experience."
 
-  - title: Information Technology Intern
-    city: Sayre, PA
-    country: United States
-    company:
-      name: Sayre Area School District
-      link: http://sayresd.org/
-    date:
-      start: 2011-06-01
-      end: 2014-01-31
-    accomplishments:
-      - "Automated the content creation process for the school’s web site."
-      - "Managed the migration and performance tuning of the school’s VMs on new hardware."
+  # - title: Information Technology Intern
+  #   city: Sayre, PA
+  #   country: United States
+  #   company:
+  #     name: Sayre Area School District
+  #     link: http://sayresd.org/
+  #   date:
+  #     start: 2011-06-01
+  #     end: 2014-01-31
+  #   accomplishments:
+  #     - "Automated the content creation process for the school’s web site."
+  #     - "Managed the migration and performance tuning of the school’s VMs on new hardware."
 
 projects:
   - title: Predicting Turn Types Competition
