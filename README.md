@@ -5,8 +5,7 @@ My personal HTML and PDF resume builder with [Middleman](http://middlemanapp.com
 ## Run
 
     bundle install
-    bundle exec middleman server
-    bundle exec middleman deploy
+    be mgd
 
 ## Features:
  * Separation between content and styles, all your resume information is an YAML file with markdown support.

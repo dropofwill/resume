@@ -81,7 +81,3 @@ configure :build do
 
   activate :pdfmaker
 end
-
-activate :deploy do |deploy|
-  deploy.method = :git
-end
